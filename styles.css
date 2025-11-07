@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background: #b71c1c;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cake-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 20px;
+}
+
+.cake-box {
+    text-align: center;
+}
+
+.cake-box img {
+    width: 170px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.cake-box p {
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.order-title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.order-box {
+    width: 450px;
+    background: white;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px gray;
+}
+
+.order-box label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.order-box input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    margin-top: 18px;
+    padding: 12px;
+    font-size: 17px;
+    background: #2979ff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bill-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bill-box h3 {
+    font-size: 20px;
+}
+
+.bill-box p {
+    background: green;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    margin: 10px auto;
+    border-radius: 5px;
+    font-weight: bold;
+}
